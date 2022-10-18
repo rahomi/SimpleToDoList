@@ -1,0 +1,28 @@
+{
+  "name": "todoapp",
+  "version": "1.0.0",
+  "description": "A simple To-do List app using node.js and mongoDB.",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rahomi/SimpleToDoList.git"
+  },
+  "author": "Mohibul",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rahomi/SimpleToDoList/issues"
+  },
+  "homepage": "https://github.com/rahomi/SimpleToDoList#readme",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "ejs": "^3.1.8",
+    "express": "^4.18.2",
+    "mongoose": "^6.6.5"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
