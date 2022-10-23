@@ -73,5 +73,6 @@ mongoose.connect(process.env.DB_CONNECT, {}, () => {
   console.log("Connected to db!");
 
   // dedicating a port number and telling our express app to listen to that port
-  app.listen(3000, () => console.log("Server Up and running"));
+  const port = process.env.port || 3000;
+  app.listen(port, () => console.log(`Server Up and running on ${port}`));
 });
